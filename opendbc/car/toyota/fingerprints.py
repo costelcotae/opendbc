@@ -1069,6 +1069,23 @@ FW_VERSIONS = {
       b'\x028646F4210100\x00\x00\x00\x008646G3305000\x00\x00\x00\x00',
     ],
   },
+  CAR.TOYOTA_RAV4_PHEV: {
+    (Ecu.engine, 0x700, None): [
+      b'\x01896634AL4000\x00\x00\x00\x00',
+    ],
+    (Ecu.abs, 0x7b0, None): [
+      b'\x01F152642G2000\x00\x00\x00\x00',
+    ],
+    (Ecu.eps, 0x7a1, None): [
+      b'\x018965B4241000\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdRadar, 0x750, 0xf): [
+      b'\x018821F6201400\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdCamera, 0x750, 0x6d): [
+      b'\x028646F4212200\x00\x00\x00\x008646G7101100\x00\x00\x00\x00',
+    ],
+  },
   CAR.TOYOTA_RAV4_TSS2: {
     (Ecu.engine, 0x700, None): [
       b'\x01896630R58000\x00\x00\x00\x00',
